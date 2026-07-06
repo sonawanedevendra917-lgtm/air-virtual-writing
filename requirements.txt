@@ -1,3 +1,8 @@
 opencv-python>=4.9.0
-mediapipe>=0.10.9
+mediapipe>=0.10.9,<0.10.20
 numpy>=1.24.0
+
+# Optional, only needed for v3 extra features:
+imageio>=2.34.0        # needed for 'r' key GIF recording
+pytesseract>=0.3.10    # needed for 't' key OCR (also requires the Tesseract
+                        # engine installed separately - see README)
