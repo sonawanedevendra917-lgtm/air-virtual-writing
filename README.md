@@ -21,9 +21,9 @@ Built with *Python*, *OpenCV*, and *MediaPipe*.
 ## How the gestures work
 
 | Gesture | Meaning |
-| ☝️ Only index finger up | **Draw mode** — moves the brush and draws a line 
-| ✌️ Index + middle finger up | **Select mode** — hover over the toolbar to pick a color / eraser / clear, without drawing 
-| ✊ Fist / other fingers up | **Pen up** — stops drawing (like lifting a pen off paper) 
+| ☝️ Only index finger up | **Draw mode** — moves the brush and draws a line |
+| ✌️ Index + middle finger up | **Select mode** — hover over the toolbar to pick a color / eraser / clear, without drawing |
+| ✊ Fist / other fingers up | **Pen up** — stops drawing (like lifting a pen off paper) |
 
 The toolbar sits at the top of the frame. Point at a color swatch, the
 eraser button, or the clear button in select mode to activate it.
